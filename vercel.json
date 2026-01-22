@@ -1,5 +1,8 @@
 {
+    "version": 2,
+    "buildCommand": null,
     "outputDirectory": "dist",
+    "framework": null,
     "rewrites": [
         {
             "source": "/(.*)",
