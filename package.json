@@ -30,7 +30,9 @@
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "autoprefixer": "^10.4.23",
     "babel-preset-expo": "^54.0.10",
+    "postcss": "^8.5.6",
     "typescript": "~5.9.2"
   },
   "private": true
