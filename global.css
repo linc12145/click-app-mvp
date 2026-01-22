@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Web-only styles for desktop presentation */
+@media (min-width: 768px) {
+    body {
+        background-color: #0f172a;
+        /* Dark background */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    #root {
+        width: 100%;
+        max-width: 480px;
+        /* Mobile width */
+        height: 90vh;
+        max-height: 900px;
+        background-color: #0F172A;
+        /* Match app bg */
+        border-radius: 40px;
+        /* Phone rounding */
+        overflow: hidden;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        /* Shadow */
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
